@@ -1,12 +1,14 @@
+import MainStyle from "./styles";
 import Aside from "./Aside";
 import Section from "./Section";
-import MainStyle from "./styles";
+import Navigation from "./Navigation";
 
 function Main() {
   return (
     <MainStyle>
       <Aside/>
       <Section/>
+      <Navigation/>
     </MainStyle>
   );
 }

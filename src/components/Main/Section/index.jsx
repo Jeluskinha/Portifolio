@@ -1,12 +1,13 @@
+import ProjectList from "./ProjectsList";
+import StatusBox from "./StatusBox";
 import SectionStyle from "./styles";
 
 
 function Section() {
   return (
     <SectionStyle>
-      <div>
-        <h3>sdasd</h3>
-      </div>
+      <StatusBox/>
+      <ProjectList/>
     </SectionStyle>
   );
 }
