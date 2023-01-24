@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 const ProjectListStyle = styled.section`
-  margin-top: 40px;
+  margin-top: 20px;
   height: fit-content;
-  height: 300px;
+  height: 320px;
   width: 100%;
 
   ul{ 
     height: 100%;
     list-style: none;
     display: flex;
-    justify-content: ${({numProcjects}) => numProcjects % 3 === 2 && numProcjects > 1 ? "flex-start" : "space-between"};
-    flex-flow: wrap;
+    justify-content: ${({numProcjects}) => numProcjects % 3 === 2 && numProcjects > 1 ? "space-between" : "flexstart"};
+    flex-flow: row wrap;
     gap: 2rem;
     overflow: scroll;
     overflow-x: hidden;

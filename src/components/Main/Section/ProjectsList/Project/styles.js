@@ -7,10 +7,10 @@ const ProjectStyle = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 0 auto;
+  margin: 0 1rem;
   h3 {
     font-size: var(--fontSize-Middle);
-    color: var(--fontColor-1);
+    color: var(--fontColor-3);
     text-align: center;
     font-weight: var(--fontWeight-Strong);
   }
