@@ -32,6 +32,23 @@ const ProjectListStyle = styled.section`
       background: var(--fontColor-3); 
     }
   }
+
+
+        @media (max-width: 1377px ) {
+          ul{
+            justify-content: center;
+          }
+        }
+  @media (max-width: 1024px) {
+    ul{
+      justify-content: ${({numProcjects}) => numProcjects % 3 === 2 && numProcjects > 1 ? "space-between" : "flexstart"};
+    }
+  }
+  @media (max-width: 769px) {
+    ul{
+      justify-content: center;
+    }
+  }
 `;
 
 export default ProjectListStyle;

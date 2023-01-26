@@ -26,7 +26,7 @@ function StatusBox() {
         </li>
       </ul>
 
-      <h2>Trust me<br/>I'm a WebDesigner</h2>
+      <h2>Trust me<br/>I'm a Developer</h2>
     </StatusBoxStyle>
   );
 }

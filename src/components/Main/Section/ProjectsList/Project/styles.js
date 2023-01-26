@@ -41,6 +41,32 @@ const ProjectStyle = styled.li`
       color: var(--fontColor-1);
     }
   }
+
+        @media (max-width: 1483px) {
+          width: 300px;
+        }
+  @media (max-width: 1440px) {
+    width: 280px;
+  }
+        @media (max-width: 1377px) {
+          width: 350px;
+        }
+        @media (max-width: 1192px) {
+          width: 265px;
+        }
+  @media (max-width: 1024px) {
+    width: 265px;
+    h3{
+      font-size: 2rem;
+    }
+  }
+        @media (max-width: 968px) {
+          width: 40%;
+        }
+        @media (max-width: 800px) {
+          width: 320px;
+        }
+ 
 `;
 
 export default ProjectStyle;
