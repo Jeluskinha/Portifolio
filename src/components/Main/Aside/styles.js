@@ -18,14 +18,13 @@ const AsideStyle = styled.aside`
       width: 0px;
     }
   }
-
-  @media (max-width: 800px) {
-    width: 200px;
-  }
-
-  @media (max-width: 600px) {
-    display: none;
-  }
+        /* tamanhos de telas não oficiais */
+        @media (max-width: 800px) {
+          width: 200px;
+        }
+        @media (max-width: 600px) {
+          display: none;
+        }
 `;
 
 export default AsideStyle;

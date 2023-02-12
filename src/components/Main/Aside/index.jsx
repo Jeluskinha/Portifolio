@@ -1,7 +1,8 @@
 import AsideStyle from "./styles";
 import Perfil from "./Perfil";
-import Adress from "./Adress";
 import Media from "./Media";
+import Adress from "./AboutMe/Adress";
+import Tech from "./AboutMe/Technologies";
 
 function Aside() {
   return (
@@ -9,6 +10,7 @@ function Aside() {
       <Perfil />
       <section>
         <Adress />
+        <Tech />
       </section>
       <Media />
     </AsideStyle>

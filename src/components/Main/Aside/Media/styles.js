@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const MediaStyle = styled.div`
   height: 80px;
-  width: 290px;
+  width: 100%;
   background-color: var(--Background-Cards);
   display: flex;
   bottom: 0;

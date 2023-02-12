@@ -20,7 +20,10 @@ const StatusBoxStyle = styled.div`
   }
 
   ul {
+    height: fit-content;
+    max-width: 190px;
     display: flex;
+    flex-wrap: wrap-reverse;
     list-style: none;
     gap: 1rem;
     li {
@@ -29,6 +32,7 @@ const StatusBoxStyle = styled.div`
       img {
         height: 100%;
         width: 100%;
+        image-rendering: pixelated;
       }
     }
   }

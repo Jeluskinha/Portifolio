@@ -41,13 +41,14 @@ const ProjectStyle = styled.li`
       color: var(--fontColor-1);
     }
   }
-
+        /* tamanhos de telas não oficiais */
         @media (max-width: 1483px) {
           width: 300px;
         }
   @media (max-width: 1440px) {
     width: 280px;
   }
+        /* tamanhos de telas não oficiais */
         @media (max-width: 1377px) {
           width: 350px;
         }
@@ -60,6 +61,7 @@ const ProjectStyle = styled.li`
       font-size: 2rem;
     }
   }
+        /* tamanhos de telas não oficiais */
         @media (max-width: 968px) {
           width: 40%;
         }

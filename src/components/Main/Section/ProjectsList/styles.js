@@ -33,7 +33,7 @@ const ProjectListStyle = styled.section`
     }
   }
 
-
+        /* tamanhos de telas não oficiais */
         @media (max-width: 1377px ) {
           ul{
             justify-content: center;
