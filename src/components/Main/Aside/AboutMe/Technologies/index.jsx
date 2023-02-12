@@ -17,6 +17,7 @@ const mainTechs = [
 
 const techs = 'HTML | CSS | JavaScript | React | TypeScript | Node.js | Express.js | TypeOrm | Python | Django | PostgreSQL'
 
+// NÃO É NECESSÁRIO EDITAR ABAIXO DESTA LINHA
 function Tech() {
   return (
     <TechStyle mainTech_1={mainTechs[0].percentage} mainTech_2={mainTechs[1].percentage} mainTech_3={mainTechs[2].percentage}>
