@@ -13,6 +13,7 @@ const StatusBoxStyle = styled.div`
   justify-content: space-between;
   align-items: flex-end;
   padding: 35px;
+  image-rendering: pixelated;
   
   h2{
     text-align: end;
