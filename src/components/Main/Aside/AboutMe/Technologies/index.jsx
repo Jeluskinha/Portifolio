@@ -1,32 +1,50 @@
 import TechStyle from "./styles";
 
+const mainTechs = [
+  {
+    name: 'JavaScript',
+    percentage: 95
+  },
+  {
+    name: 'TypeSCript',
+    percentage: 90
+  },
+  {
+    name: 'JavaScript',
+    percentage: 70
+  },
+]
+
+const techs = 'HTML | CSS | JavaScript | React | TypeScript | Node.js | Express.js | TypeOrm | Python | Django | PostgreSQL'
+
 function Tech() {
   return (
-    <TechStyle JavaScript={95} TypeSCript={90} Python={70}>
+    <TechStyle mainTech_1={mainTechs[0].percentage} mainTech_2={mainTechs[1].percentage} mainTech_3={mainTechs[2].percentage}>
       <ul>
-        <h4>Languages</h4>
+        <h4>Technologies</h4>
         <li>
           <div>
-            <h6>JavaScript :</h6>
-            <span>95 %</span>
+            <h6>{mainTechs[0].name} :</h6>
+            <span>{mainTechs[0].percentage} %</span>
           </div>
-          <div id={'JavaScript'}></div>
+          <div id={'mainTech_1'}></div>
         </li>
         <li>
           <div>
-            <h6>TypeScript :</h6>
-            <span>90 %</span>
+            <h6>{mainTechs[1].name} :</h6>
+            <span>{mainTechs[1].percentage} %</span>
           </div>
-          <div id={'TypeScript'}></div>
+          <div id={'mainTech_2'}></div>
         </li>
         <li>
           <div>
-            <h6>Python :</h6>
-            <span>70   %</span>
+            <h6>{mainTechs[2].name} :</h6>
+            <span>{mainTechs[2].percentage} %</span>
           </div>
-          <div id={'Python'}></div>
+          <div id={'mainTech_3'}></div>
         </li>
       </ul>
+      <h6>{techs}</h6>
     </TechStyle>
   );
 }

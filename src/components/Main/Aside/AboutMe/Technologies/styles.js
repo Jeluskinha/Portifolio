@@ -35,36 +35,36 @@ const TechStyle = styled.div`
           text-align: end;
         }
       }
-      #JavaScript { 
+      #mainTech_1 { 
         min-height: 8px;
         padding: 2px 2px;
         background-color: var(--BorderColor-1);
         display: flex;
-         --progress: ${({JavaScript}) => JavaScript};     
+         --progress: ${({mainTech_1}) => mainTech_1};     
          &::before{
              content: "";
              width: calc(var(--progress) * 1%);
              background-color: var(--fontColor-3);
          }
       }
-      #TypeScript { 
+      #mainTech_2 { 
         min-height: 8px;
         padding: 2px 2px;
         background-color: var(--BorderColor-1);
         display: flex;
-         --progress: ${({TypeSCript}) => TypeSCript};     
+         --progress: ${({mainTech_2}) => mainTech_2};     
          &::before{
              content: "";
              width: calc(var(--progress) * 1%);
              background-color: var(--fontColor-3);
          }
       }
-      #Python { 
+      #mainTech_3 { 
         min-height: 8px;
         padding: 2px 2px;
         background-color: var(--BorderColor-1);
         display: flex;
-         --progress: ${({Python}) => Python};     
+         --progress: ${({mainTech_2}) => mainTech_2};     
          &::before{
              content: "";
              width: calc(var(--progress) * 1%);
@@ -73,7 +73,14 @@ const TechStyle = styled.div`
       }
     }
   }
-
+  h6:nth-last-child(1){
+    margin-top: 10px;
+    text-align: center;
+    font-size: calc(var(--fontSize-Small) - 20%);
+    color: var(--fontColor-1);
+    font-weight: calc(var(--fontWeight-Strong) -50);
+    opacity: 0.8;
+  }
 `;
 
 export default TechStyle;
