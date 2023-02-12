@@ -8,40 +8,45 @@ import Nukenzie from "../../../../assets/projects/NuKenzie.gif";
 import Kenziehub from "../../../../assets/projects/KenzieHub.gif";
 import RickAndMorty from "../../../../assets/projects/RickAndMorty.gif";
 
+// ***COMO EDITAR***
+// na chave deploy => inserir o link da sua aplicação ex: => "https://react-s2-rick-and-morty.vercel.app"
+// na chave git => inserir o link do repositório da aplicação **PUBLICO** ex: => https://github.com/Jeluskinha/react-atividade-s1-buscando-mais-personagens-Jeluskinha
+// se não houver um deploy vercionado ou repositório publico, bastar inserir o valor null na chave
+
 const projects = [
   {
     name: "Burguer Kenzie",
     gif: hamburgueria,
-    vercel: "https://react-entrega-s1-hamburgueria-da-kenzie-jeluskinha.vercel.app",
+    deploy: "https://react-entrega-s1-hamburgueria-da-kenzie-jeluskinha.vercel.app",
     git:"https://github.com/Jeluskinha/react-entrega-s1-hamburgueria-da-kenzie-Jeluskinha"
   },
   {
     name: "Duo Gaming",
     gif: DuoGaming,
-    vercel: "https://duogaming-front-end.vercel.app/",
+    deploy: "https://duogaming-front-end.vercel.app/",
     git:"https://github.com/Jeluskinha/duogaming_frontend"
   },
   {
     name: "NuKenzie",
     gif: Nukenzie,
-    vercel: "https://react-entrega-s1-nu-kenzie-jeluskinha.vercel.app",
+    deploy: "https://react-entrega-s1-nu-kenzie-jeluskinha.vercel.app",
     git:"https://github.com/Jeluskinha/react-entrega-s1-nu-kenzie-Jeluskinha"
   },
   {
     name: "Kenzie Hub",
     gif: Kenziehub,
-    vercel: "https://projeto-kenziehub.vercel.app/login",
+    deploy: "https://projeto-kenziehub.vercel.app/login",
     git:"https://github.com/Jeluskinha/projetoKenziehub"
   },
   {
     name: "Rick AndMorty",
     gif: RickAndMorty,
-    vercel: "https://react-s2-rick-and-morty.vercel.app",
+    deploy: "https://react-s2-rick-and-morty.vercel.app",
     git:"https://github.com/Jeluskinha/react-atividade-s1-buscando-mais-personagens-Jeluskinha"
   },
 ];
 
-
+// NÃO É NECESSÁRIO EDITAR ABAIXO DESTA LINHA
 function ProjectList() {
 
   const [numProcjects, setNumProjects] = useState(0)
@@ -54,7 +59,7 @@ function ProjectList() {
     <ProjectListStyle projects={numProcjects}>
       <ul>
         {projects.map((e) => (
-          <Project name={e.name} gif={e.gif} vercel={e.vercel} git={e.git}/>
+          <Project name={e.name} gif={e.gif} deploy={e?.deploy} git={e?.git}/>
         ))}
       </ul>
     </ProjectListStyle>

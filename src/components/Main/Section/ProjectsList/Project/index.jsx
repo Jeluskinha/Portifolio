@@ -1,7 +1,7 @@
 import ProjectStyle from "./styles";
 import {AiFillGithub} from 'react-icons/ai'
 
-function Project({name, gif, vercel, git}) {
+function Project({name, gif, deploy, git}) {
   return (
     <ProjectStyle>
       <h3>{name}</h3>
@@ -9,8 +9,8 @@ function Project({name, gif, vercel, git}) {
         <img src={gif} alt="" />
       </figure>
       <nav>
-        <a href={vercel} target="_blank" rel="noopener noreferrer">Visualizar</a>
-        <a href={git} target="_blank" rel="noopener noreferrer"><AiFillGithub/></a>
+        {deploy && <a href={deploy} target="_blank" rel="noopener noreferrer">Visualizar</a>}
+        {git && <a href={git} target="_blank" rel="noopener noreferrer"><AiFillGithub/></a>}
       </nav>
     </ProjectStyle>
   );
