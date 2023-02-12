@@ -2,11 +2,11 @@ import Project from "./Project";
 import ProjectListStyle from "./styles";
 import { useEffect, useState } from "react";
 
-import hamburgueria from "../../../../assets/gifs/hamburgueria.gif";
-import DuoGaming from "../../../../assets/gifs/DuoGaming.gif";
-import Nukenzie from "../../../../assets/gifs/NuKenzie.gif";
-import Kenziehub from "../../../../assets/gifs/KenzieHub.gif";
-import RickAndMorty from "../../../../assets/gifs/RickAndMorty.gif";
+import hamburgueria from "../../../../assets/projects/hamburgueria.gif";
+import DuoGaming from "../../../../assets/projects/DuoGaming.gif";
+import Nukenzie from "../../../../assets/projects/NuKenzie.gif";
+import Kenziehub from "../../../../assets/projects/KenzieHub.gif";
+import RickAndMorty from "../../../../assets/projects/RickAndMorty.gif";
 
 const projects = [
   {

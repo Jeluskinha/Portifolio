@@ -1,5 +1,5 @@
 import PerfilStyle from "./styles";
-import Foto from "../../../../assets/foto_perfil.jpg";
+import Foto from "../../../../assets/profile/foto_perfil.jpg";
 
 function Perfil() {
   return (

@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import anonimous from '../../../../assets/anonimous.png'
+import background from '../../../../assets/background/anonimous.png'
 
 const StatusBoxStyle = styled.div`
   height: 300px;
   width: 100%;
   background-color: var(--Background-Cards);
-  background-image: url(${anonimous});
+  background-image: url(${background});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat, repeat;
