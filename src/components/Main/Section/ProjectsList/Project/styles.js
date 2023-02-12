@@ -21,7 +21,6 @@ const ProjectStyle = styled.li`
     img {
       height: 100%;
       width: 100%;
-      image-rendering: pixelated;
     }
   }
   nav {

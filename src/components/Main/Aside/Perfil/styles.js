@@ -18,7 +18,6 @@ const PerfilStyle = styled.div`
       height: 100%;
       width: 100%;
       border-radius: 50%;
-      image-rendering: pixelated;
     }
   }
   h1 {
