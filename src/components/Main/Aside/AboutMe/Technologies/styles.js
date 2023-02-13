@@ -64,7 +64,7 @@ const TechStyle = styled.div`
         padding: 2px 2px;
         background-color: var(--BorderColor-1);
         display: flex;
-         --progress: ${({mainTech_2}) => mainTech_2};     
+         --progress: ${({mainTech_3}) => mainTech_3};     
          &::before{
              content: "";
              width: calc(var(--progress) * 1%);

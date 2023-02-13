@@ -7,6 +7,7 @@ import DuoGaming from "../../../../assets/projects/DuoGaming.gif";
 import Nukenzie from "../../../../assets/projects/NuKenzie.gif";
 import Kenziehub from "../../../../assets/projects/KenzieHub.gif";
 import RickAndMorty from "../../../../assets/projects/RickAndMorty.gif";
+import mksChallenge from "../../../../assets/projects/mksChallenge.gif";
 
 // ***COMO EDITAR***
 // na chave deploy => inserir o link da sua aplicação ex: => "https://react-s2-rick-and-morty.vercel.app"
@@ -43,6 +44,12 @@ const projects = [
     gif: RickAndMorty,
     deploy: "https://react-s2-rick-and-morty.vercel.app",
     git:"https://github.com/Jeluskinha/react-atividade-s1-buscando-mais-personagens-Jeluskinha"
+  },
+  {
+    name: "Mks Challange",
+    gif: mksChallenge,
+    deploy: "https://mks-challenge-woad.vercel.app/",
+    git:"https://github.com/Jeluskinha/mks-challenge"
   },
 ];
 

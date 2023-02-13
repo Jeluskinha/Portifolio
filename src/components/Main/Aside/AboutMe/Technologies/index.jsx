@@ -3,15 +3,15 @@ import TechStyle from "./styles";
 const mainTechs = [
   {
     name: 'JavaScript',
-    percentage: 95
+    percentage: 95,
   },
   {
     name: 'TypeSCript',
-    percentage: 90
+    percentage: 90,
   },
   {
-    name: 'JavaScript',
-    percentage: 70
+    name: 'Python',
+    percentage: 70,
   },
 ]
 
@@ -19,6 +19,7 @@ const techs = 'HTML | CSS | JavaScript | React | TypeScript | Node.js | Express.
 
 // NÃO É NECESSÁRIO EDITAR ABAIXO DESTA LINHA
 function Tech() {
+  console.log(mainTechs[2].percentage)
   return (
     <TechStyle mainTech_1={mainTechs[0].percentage} mainTech_2={mainTechs[1].percentage} mainTech_3={mainTechs[2].percentage}>
       <ul>
