@@ -8,7 +8,7 @@ function Main() {
     <MainStyle>
       <Aside />
       <Section />
-      {/* <Navigation/> */}
+      <Navigation />
     </MainStyle>
   );
 }
