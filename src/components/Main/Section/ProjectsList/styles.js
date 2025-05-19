@@ -3,11 +3,9 @@ import styled from "styled-components";
 const ProjectListStyle = styled.section`
   margin-top: 20px;
   height: fit-content;
-  height: 320px;
   width: 100%;
 
   ul{ 
-    height: 100%;
     list-style: none;
     display: flex;
     justify-content: ${({numProcjects}) => numProcjects % 3 === 2 && numProcjects > 1 ? "space-between" : "flexstart"};
