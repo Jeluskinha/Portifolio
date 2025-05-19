@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 const ProjectStyle = styled.li`
-  height: 240px;
+  /* height: 240px; */
+  max-height: 48%;
   width: 315px;
   background-color: var(--Background-Cards);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 0 1rem;
+  /* margin: 0 auto; */
   h3 {
     font-size: var(--fontSize-Middle);
     color: var(--fontColor-3);
@@ -41,34 +42,33 @@ const ProjectStyle = styled.li`
       color: var(--fontColor-1);
     }
   }
-        /* tamanhos de telas não oficiais */
-        @media (max-width: 1483px) {
-          width: 300px;
-        }
+  /* tamanhos de telas não oficiais */
+  @media (max-width: 1483px) {
+    width: 300px;
+  }
   @media (max-width: 1440px) {
     width: 280px;
   }
-        /* tamanhos de telas não oficiais */
-        @media (max-width: 1377px) {
-          width: 350px;
-        }
-        @media (max-width: 1192px) {
-          width: 265px;
-        }
+  /* tamanhos de telas não oficiais */
+  @media (max-width: 1377px) {
+    width: 350px;
+  }
+  @media (max-width: 1192px) {
+    width: 265px;
+  }
   @media (max-width: 1024px) {
     width: 265px;
-    h3{
+    h3 {
       font-size: 2rem;
     }
   }
-        /* tamanhos de telas não oficiais */
-        @media (max-width: 968px) {
-          width: 40%;
-        }
-        @media (max-width: 800px) {
-          width: 320px;
-        }
- 
+  /* tamanhos de telas não oficiais */
+  @media (max-width: 968px) {
+    width: 40%;
+  }
+  @media (max-width: 800px) {
+    width: 320px;
+  }
 `;
 
 export default ProjectStyle;

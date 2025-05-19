@@ -6,9 +6,9 @@ import Navigation from "./Navigation";
 function Main() {
   return (
     <MainStyle>
-      <Aside/>
-      <Section/>
-      <Navigation/>
+      <Aside />
+      <Section />
+      {/* <Navigation/> */}
     </MainStyle>
   );
 }
